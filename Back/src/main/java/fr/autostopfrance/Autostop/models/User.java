@@ -1,5 +1,4 @@
 package fr.autostopfrance.Autostop.models;
-import fr.autostopfrance.Autostop.utils.UploadFileResponse;
 
 import java.time.LocalDate;
 import javax.persistence.*;
@@ -28,8 +27,6 @@ public class User {
     @OneToOne(cascade = CascadeType.ALL)
     private Account account;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    private UploadFileResponse uploadFileResponse;
 
 
     public User () {}
@@ -51,7 +48,6 @@ public class User {
         this.sex = sex;
         this.dateOfBirth = dateOfBirth;
         this.account = new Account(email, password);
-        this.uploadFileResponse = new UploadFileResponse(fileDownloadUri);
     }
 
     public Long getId() {
@@ -115,5 +111,4 @@ public class User {
         return account;
     }
 
-    public UploadFileResponse getUploadFileResponse() {return uploadFileResponse;}
 }
