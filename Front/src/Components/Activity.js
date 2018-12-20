@@ -8,7 +8,11 @@ class Activity extends Component {
   }
 
   render() {
-    return <div className="homePage" />;
+    return(
+      <div className="homePage">
+        test
+      </div>
+    );
   }
 }
 
