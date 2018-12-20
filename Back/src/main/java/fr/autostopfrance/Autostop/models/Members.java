@@ -12,11 +12,11 @@ public class Members {
 
     @Id
     @GeneratedValue
-    @Column
+    @Column(name="id")
     private Long id;
-    @Column
+    @Column(name="email")
     private String email;
-    @Column
+    @Column(name="id_members")
     private Long id_members;
 
     public Members ( Long id, Long id_members, String email ) {
@@ -28,8 +28,6 @@ public class Members {
 
 
     public Members(){}
-
-    public Members(int i, String s, String email){}
 
     public Long getId() {
         return id;

@@ -26,8 +26,8 @@ public class ActivityCommandRunner implements CommandLineRunner {
 	
 	@Override
 	public void run(String... strings) throws Exception {
-		activitiesRepository.save((new Activity(1L, "Faire du ping pong")));
-		activitiesRepository.save((new Activity(2L, "Faire du ping pong")));
+		activitiesRepository.save((new Activity(1L,"https://imgur.com/gallery/TH1CBeg", "Faire du ping pong")));
+		activitiesRepository.save((new Activity(2L,"https://imgur.com/gallery/B2r6JJH", "Faire du ping pong")));
 	}
 	
 }

@@ -13,9 +13,9 @@ public class Tip {
 	
 	@Id
 	@GeneratedValue
-	@Column
+	@Column(name="id")
 	private Long id;
-	@Column 
+	@Column(name="sentence")
 	private String sentence;
 	
 	public Tip(Long id , String sentence) {

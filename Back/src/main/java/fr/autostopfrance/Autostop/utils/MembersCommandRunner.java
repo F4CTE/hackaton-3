@@ -25,8 +25,8 @@ public class MembersCommandRunner implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-        membersRepository.save((new Members(1, "12", "toctoc@gmail.com")));
-        membersRepository.save((new Members(2, "20", "hello@gmail.com")));
+        membersRepository.save((new Members(1L, 12L, "toctoc@gmail.com")));
+        membersRepository.save((new Members(2L, 20L, "hello@gmail.com")));
     }
 
 }

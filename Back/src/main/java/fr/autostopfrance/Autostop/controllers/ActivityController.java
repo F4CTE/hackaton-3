@@ -23,7 +23,6 @@ public class ActivityController {
 	@Autowired
 	ActivityService activityService;
 	
-	
 	@GetMapping("/all")
 	public List<Activity> findAllActivities(){
 		return activityService.findAllActivities();
