@@ -21,6 +21,14 @@ public class ActivityService {
 	public Activity findById(Long id) {
 		return activitiesDAO.findById(id).get();
 	}
+
+	public Activity postActivity(Activity activity) {
+		Activity _activity = activitiesDAO.save(new Activity(
+				activity.getId(),
+				activity.getSentence()
+				));
+		return _activity;
+	}
 	
 	
 }

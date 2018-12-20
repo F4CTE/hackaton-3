@@ -22,14 +22,8 @@ public class UserService {
 
     public User postUser(User user) {
         User _user = userDAO.save(new User(
-                user.getLastName(),
-                user.getFirstName(),
-                user.getPhone(),
-                user.getSex(),
-                user.getDateOfBirth(),
-                user.getAccount().getEmail(),
-                user.getAccount().getPassword()
-                ));
+        		user.getEmail(),
+        		user.getPassword()));
         return _user;
     }
 
@@ -38,7 +32,7 @@ public class UserService {
         return new ResponseEntity<>("User has been deleted!", HttpStatus.OK);
     }
 
-    public Optional<User> findById(long idUser) {
+    public Optional<User> findById(Long idUser) {
         return userDAO.findById(idUser);
     }
 

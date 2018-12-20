@@ -27,30 +27,9 @@ public class UserCommandRunner implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-//        log.info("Preloading " + repository.save(new User("Nicolas",
-//                "Barbier",
-//                "0688296348",
-//                "http://URLdeMaPhoto.fr",
-//                "Homme",
-//                LocalDate.of(1983, 05, 19)
-//                )));
-//        User user1 = new User (
-//                "Bourrat",
-//                "JN",
-//                "0987654321",
-//                "hhtpp://HHHHG.fr",
-//                "homme",
-//                LocalDate.of(1990, 10, 19),
-//                "jnb@mail.fr",
-//                "ttt");
-
-//        userController.postUser(user1);
-
-//        userController.deleteUser(18);
-
-//        for (User myUser : userController.findUsers()) {
-//            log.info(myUser.toString());
-//        }
-
+    	repository.save(new User("pierre","motdepasse"));
+    	repository.save(new User("rolande","password"));
+    	repository.save(new User("jean-humain-jambe","wordpasse"));
     }
+
 }
