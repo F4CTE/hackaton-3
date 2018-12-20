@@ -35,9 +35,9 @@ public class MembersController {
     }
 
     @PostMapping("/create")
-    public Members addMembers(@RequestBody Members id_members) {
+    public Members addMembers(@RequestBody Members member) {
         System.out.println("added members");
-        Members members1 = membersService.postMembers(id_members);
+        Members members1 = membersService.postMembers(member);
         return members1;
     }
 }

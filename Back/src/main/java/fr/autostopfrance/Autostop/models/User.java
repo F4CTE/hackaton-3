@@ -1,6 +1,8 @@
 package fr.autostopfrance.Autostop.models;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name="user")
@@ -13,6 +15,9 @@ public class User {
     private String email;
     @Column(name = "password")
     private String password;
+    @Column(name="members")
+    @OneToMany(cascade = CascadeType.ALL, targetEntity=Members.class)
+    private Set<Members> members = new HashSet<>();
 
 
     protected User () {
@@ -42,5 +47,10 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
+    //public Set<Members> getId_members() {
+    //    return members;
+    //}
 
 }

@@ -1,10 +1,6 @@
 package fr.autostopfrance.Autostop.models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="members")
@@ -16,8 +12,10 @@ public class Members {
     private Long id;
     @Column(name="email")
     private String email;
-    @Column(name="id_members")
-    private Long id_members;
+private long id_members;
+    @ManyToOne
+//    @JoinColumn(name = "id_members")
+    private User user;
 
     public Members ( Long id, Long id_members, String email ) {
         this.id = id;
@@ -36,6 +34,7 @@ public class Members {
     public void setId(Long id) {
         this.id = id;
     }
+
 
     public Long getId_members() {
         return id_members;
