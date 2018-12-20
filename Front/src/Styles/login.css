@@ -1,0 +1,21 @@
+.form2{
+    justify-content: center;
+  }
+  .field{
+    width:250px;
+    justify-content: center;
+  }
+.formulaire {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .form{
+    background-color: rgba(250, 250, 250, 0.2);
+    border-radius : 5%;
+    height: 220px;
+    width: 300px;
+    align-content: center;
+  }
