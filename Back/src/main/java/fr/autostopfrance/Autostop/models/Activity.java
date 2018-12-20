@@ -11,7 +11,7 @@ import javax.persistence.Table;
 public class Activity {
 
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column
 	private Long id;
 	@Column
