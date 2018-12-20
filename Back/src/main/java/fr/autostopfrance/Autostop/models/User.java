@@ -14,6 +14,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
+
     protected User () {
     }
 
@@ -41,4 +42,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

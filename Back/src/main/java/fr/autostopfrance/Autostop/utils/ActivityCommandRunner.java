@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import fr.autostopfrance.Autostop.controllers.ActivityController;
 import fr.autostopfrance.Autostop.models.Activity;
 import fr.autostopfrance.Autostop.repositories.ActivitiesDAO;
-import jdk.internal.jline.internal.Log;
 
 @Component
 public class ActivityCommandRunner implements CommandLineRunner {
