@@ -20,7 +20,7 @@ class Login extends Component {
       <div className="container">
         <div className="formulaire">
           <Form className="form">
-            <div>
+            <div className="inputs">
               <FormGroup className="form1 mb-2 mr-sm-2 mb-sm-0">
                 <div className="row justify-content-center">
                   <div className="col-6 offset-4">

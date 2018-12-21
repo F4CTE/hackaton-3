@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../Styles/home.css";
 import Login from "./Login";
-import NavBar from "./Navbar";
 
 class Home extends Component {
   constructor() {
@@ -12,7 +11,6 @@ class Home extends Component {
   render() {
     return (
       <div className="homePage">
-        <NavBar />
         <Login />
       </div>
     );
