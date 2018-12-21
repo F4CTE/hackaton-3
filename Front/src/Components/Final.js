@@ -16,7 +16,7 @@ class Final extends Component {
     return (
     <div>
       <NavBar />
-      <div className="bigModul">
+      <div className="bg-center">
         <h1 className="wellDone">Well Done !</h1>
         <div className="littleModul">
         <p>Vous avez économisé 5000 kW</p>

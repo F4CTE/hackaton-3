@@ -39,9 +39,10 @@
   border-radius: 10px;
 }
 .btn-nxt-orange {
-  background-color: orange;
+  background-color: coral;
   border-radius: 10px;
   margin: 10px;
+  padding: 8px 30px;
   color: grey;
   border: none;
 }
@@ -49,10 +50,9 @@
   margin: 5px;
 }
 .btn-go-orange {
-  background-color: orange;
+  background-color: coral;
   border-radius: 10px;
   padding: 8px 30px;
-  padding: 5px;
   color: grey;
   border: none;
   
