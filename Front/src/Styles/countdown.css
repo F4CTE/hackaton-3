@@ -1,7 +1,7 @@
-.countdown{
+.countdown {
     text-align: center;
     font-size: 35px;
-    margin-top: 20%;
+    padding-top: 70px;
 }
 .count_title{
     font-size: 50px;
@@ -9,6 +9,16 @@
 .clock-hours, .clock-minutes, .clock-seconds {
     display: inline;
 }
-.button {
-    margin-top: 40px;
+.Fin {
+    margin-top: 50px;
 }
+.bg-center {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    border-radius: 70px;
+  }
