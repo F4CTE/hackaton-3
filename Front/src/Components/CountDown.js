@@ -8,7 +8,7 @@ class CountDown extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      deadline: 'December, 21, 2018, 10 23:20:00',
+      deadline: 'December, 21, 2018, 10 02:46:00',
       hours: 0,
       minutes: 0,
       seconds: 0,
