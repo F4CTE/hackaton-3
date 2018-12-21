@@ -4,6 +4,7 @@
   .field{
     width:250px;
     justify-content: center;
+    margin-right: 1.5rem !important;
   }
 .formulaire {
     display: flex;
@@ -15,7 +16,6 @@
   .form{
     background-color: rgba(250, 250, 250, 0.2);
     border-radius : 5%;
-    height: 220px;
-    width: 300px;
+    padding: 20px;
     align-content: center;
   }

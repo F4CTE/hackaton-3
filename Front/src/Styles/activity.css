@@ -1,0 +1,59 @@
+.bg-center {
+  text-align: center;
+  position: relative;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  background-color: white;
+  width: 650px;
+  height: 400px;
+  border-radius: 70px;
+}
+.activite {
+  font-family: Helvetica; 
+  font-size: 50px;
+  font-weight: 100;
+  padding-top: 30px;
+}
+.bg-center-grey {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 30px 70px;
+  background-color: grey;
+  border-radius: 10px;
+}
+.texte {
+  font-family: Helvetica; 
+  font-size: 20px;
+  font-weight: 100;
+  margin: 5px;
+}
+.bg-middle-white {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+.btn-nxt-orange {
+  background-color: orange;
+  border-radius: 10px;
+  margin: 10px;
+  color: grey;
+  border: none;
+}
+.pictoreunion {
+  margin: 5px;
+}
+.btn-go-orange {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 8px 30px;
+  padding: 5px;
+  color: grey;
+  border: none;
+}
+
