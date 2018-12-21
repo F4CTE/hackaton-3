@@ -1,0 +1,46 @@
+.bigModul{
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+.littleModul{
+    display: table;
+    margin: 0 auto;
+    background-color: wheat;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 210px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 15px;
+    background-color: #CFD1D0;
+}
+
+.wellDone{
+    margin-top: 60px;
+    color: #CFD1D0;
+}
+.arrondi {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid coral;
+}
+
+.iconeModul{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.icones{
+    height: 40px;
+    margin-top: 6px;
+}
