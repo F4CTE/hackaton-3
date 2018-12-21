@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import fr.autostopfrance.Autostop.controllers.ActivityController;
 import fr.autostopfrance.Autostop.models.Activity;
 import fr.autostopfrance.Autostop.repositories.ActivitiesDAO;
-import jdk.internal.jline.internal.Log;
 
 @Component
 public class ActivityCommandRunner implements CommandLineRunner {
@@ -27,8 +26,8 @@ public class ActivityCommandRunner implements CommandLineRunner {
 	
 	@Override
 	public void run(String... strings) throws Exception {
-		activitiesRepository.save((new Activity(1L, "Faire du ping pong")));
-		activitiesRepository.save((new Activity(2L, "Faire du ping pong")));
+		activitiesRepository.save((new Activity(1L,"https://imgur.com/gallery/TH1CBeg", "Faire du ping pong")));
+		activitiesRepository.save((new Activity(2L,"https://imgur.com/gallery/B2r6JJH", "Faire du ping pong")));
 	}
 	
 }

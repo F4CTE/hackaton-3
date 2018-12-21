@@ -25,6 +25,10 @@ public class ActivityService {
 	public Activity postActivity(Activity activity) {
 		Activity _activity = activitiesDAO.save(new Activity(
 				activity.getId(),
+<<<<<<< HEAD
+=======
+				activity.getUrl(),
+>>>>>>> 11f82e07f6dc032e19996fc7555f4210974ff6ee
 				activity.getSentence()
 				));
 		return _activity;

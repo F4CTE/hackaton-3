@@ -6,39 +6,38 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="activities")
-public class Activity {
 
+@Entity
+@Table(name = "Tip")
+public class Tip {
+	
 	@Id
 	@GeneratedValue
 	@Column(name="id")
 	private Long id;
-	@Column(name="url")
-	private String url;
 	@Column(name="sentence")
 	private String sentence;
-	public Activity(Long id, String url, String sentence) {
+	
+	public Tip(Long id , String sentence) {
 		this.id = id;
-		this.url = url;
 		this.sentence = sentence;
 	}
-	public Activity() {
+	
+	public Tip() {}
+	
+	public String getSentence() {
+		return sentence;
 	}
 	
 	public Long getId() {
 		return id;
 	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getUrl() { return url;}
-	public void setUrl() {this.url = url;}
-	public String getSentence() {
-		return sentence;
-	}
+	
 	public void setSentence(String sentence) {
 		this.sentence = sentence;
 	}
 	
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
