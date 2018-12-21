@@ -37,7 +37,7 @@ function DatePickers(props) {
   return (
     <div>
       <NavBar />
-      <div className="contenu">
+      <div className="bg-center">
       <p className="coupureText">Time To Disconnect !</p>
         <div>
             <form>
