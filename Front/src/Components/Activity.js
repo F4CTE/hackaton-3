@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../Styles/activity.css";
 import NavBar from "./Navbar";
+import { NavLink } from 'react-router-dom'
 import pictoreunion from "../images/picto_reunion.png";
 
 class Activity extends Component {
@@ -29,7 +30,7 @@ class Activity extends Component {
                 <button className="btn-nxt-orange">NEXT</button>
               </div>
             </div>
-            <button href="/countdown" className="btn-go-orange">GO</button>
+            <NavLink to="/countdown"><button className="btn-go-orange">GO</button></NavLink>
           </div>
         </div>
       </div>
