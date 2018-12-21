@@ -1,13 +1,13 @@
-.bigModul{
-    display: table;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 15px;
-    margin-top: 30px;
-    height: 300px;
-    width: 600px;
+.bg-center {
     text-align: center;
-}
+    position: relative;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    border-radius: 70px;
+  }
 
 .littleModul{
     display: table;
@@ -24,7 +24,7 @@
 }
 
 .wellDone{
-    margin-top: 60px;
+    padding-top: 40px;
     color: #CFD1D0;
 }
 .arrondi {
